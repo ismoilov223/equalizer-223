@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equalizer</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "IBM Plex Sans";
+      }
+    </style>
+  </head>
+  <body class="h-full">
+    <div class="containers w-full">
+      <header id="header">
+        <nav
+          class="navbar w-full justify-start pl-6 pt-10 sm:pl-10 md:pl-[165px]"
+        >
+          <img src="images/svg/logo.svg" alt="logo" />
+        </nav>
+      </header>
+      <main id="main" class="w-full">
+        <section
+          class="hero px-6 gap-5 flex flex-col mt-16 sm:w-3/5 sm:mt-20 sm:gap-7 md:w-[90%] md:pl-40 md:pr-40 md:px-[165px]"
+        >
+          <h1
+            class="font-bold text-[#191826] text-4xl sm:text-6xl md:text-[88px]"
+          >
+            We make your music sound extraordinary.
+          </h1>
+          <p class="font-normal text-[#191826] text-base sm:text-lg">
+            A system audio equalizer specifically designed for Android and iOS.
+            Freely tune the way your music sounds with a professional grade
+            parametric EQ & volume mixer. Control bass, mids, treble, gain
+            control, reverb, and more!
+          </p>
+        </section>
+        <section
+          class="bg-img-con w-full mt-36 relative sm:px-8 md:px-[165px] sm:mt-[250px] md:mt-[321px]"
+        >
+          <div
+            class="bg-img-box relative h-[600px] rounded-xl bg-[#191826] w-full"
+          >
+            <img
+              src="images/png/phone-img.png"
+              alt="phone img"
+              class="absolute left-20 -top-[98px] sm:-top-[138px] md:w-[280px] md:-top-[192px]"
+            />
+            <div
+              class="bg-img w-[280px] h-[420px] ml-auto mr-auto bg-[url('../images/png/mian-bg-img.png')]"
+            ></div>
+            <div
+              class="bottom-box w-full rounded-xl bg-[#FA7453] absolute -bottom-[326px] pl-9 pr-9 pt-12 pb-12 sm:w-[389px] sm:right-14 sm:-bottom-[96px] md:w-[446px]"
+            >
+              <div class="bottom-box-text-box">
+                <h1 class="text-left text-3xl text-[#FCFAF9] font-bold mb-3">
+                  Premium EQ
+                </h1>
+                <p class="font-normal text-lg text-[#FCFAF9]">
+                  Get expert-level control with a robust equalizer, volume
+                  mixer, and spatial audio. Take your listening experience to a
+                  whole new level and access all our incredible features!
+                </p>
+              </div>
+              <div
+                class="price-row items-center gap-4 mt-11 flex text-[#FCFAF9]"
+              >
+                <h1 class="font-bold text-[65px]">$4</h1>
+                <p class="text-normal text-xl">/ month</p>
+              </div>
+              <div class="btns-row mt-7 flex flex-col gap-4">
+                <button
+                  class="btn-apple w-[296px] pt-4 pb-4 bg-[#191826] flex items-center justify-center gap-2 rounded-xl font-bold text-[#FCFAF9] cursor-pointer hover:bg-[#66E2DC] hover:text-[#FCFAF9] md:w-[333px] mx-auto"
+                >
+                  <img src="images/svg/apple.svg" alt="apple" />
+                  iOS Download
+                </button>
+                <button
+                  class="btn-apple w-[296px] pt-4 pb-4 bg-[#FCFAF9] flex items-center justify-center gap-2 rounded-xl font-bold text-[#191826] cursor-pointer hover:bg-[#FFB964] md:w-[333px] mx-auto"
+                >
+                  <img src="images/svg/android.svg" alt="android" />
+                  Android Download
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <section class="footer-con flex flex-col pb-20 gap-16 px-6 sm:px-8 mt-[389px] sm:pb-[85px] md:px-[165px] md:mt-[200px] md:items-center md:justify-between md:flex-row md:pb-[91px]">
+          <div class="logo-box flex-col flex gap-8 md:flex-row md:gap-[137px]">
+            <img src="images/svg/logo.svg" alt="" / class="w-[146px]">
+            <div class="fot-text-box w-[327px]">
+              <p class="font-normal text-base text-[#191826]">
+                All rights reserved © Equalizer 2021 Have any problems? Contact
+                us via social media or email us at
+                <span class="font-bold"> equalizer@example.com</span>
+              </p>
+            </div>
+          </div>
+          <div class="icons-box flex items-center gap-5">
+            <img src="images/svg/facebook.svg" alt="footer icon" />
+            <img src="images/svg/instagram.svg" alt="footer icon" />
+            <img src="images/svg/twit.svg" alt="footer icon" />
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
